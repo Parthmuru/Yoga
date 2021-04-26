@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    width: 100px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: black;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.83;
+    background: linear-gradient(#00fff2 0%, #f6ff00 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+#m {
+    margin-top: 730px;
+}
+
+#bio {
+    background: linear-gradient(#00ff7b 10%, #00ffe5 100%);
+}
+
+#asanas {
+    background: linear-gradient(#00b3ff 10%, #262829 100%)
+}
+
+#videos {
+    background: linear-gradient(#1ef725 10%, #f4f71e 100%);
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+
+#k {
+    margin-bottom: 50px;
+}
+
+#h {
+    margin-top: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#website {
+    background: linear-gradient(#fca103 10%, #a5fc03 100%);
+
+}
+
+a {
+    text-decoration: none;
+}
+.webs:hover {
+    color:  aqua;
+    font-size: 25px;
+}

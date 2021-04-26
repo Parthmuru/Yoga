@@ -102,10 +102,6 @@ p {
     margin-top: 50px;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 #website {
     background: linear-gradient(#fca103 10%, #a5fc03 100%);
 
@@ -114,7 +110,8 @@ html {
 a {
     text-decoration: none;
 }
+
 .webs:hover {
-    color:  aqua;
+    color: aqua;
     font-size: 25px;
 }
